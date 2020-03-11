@@ -1,0 +1,170 @@
+
+<html>
+<head>
+	<title>QUIZ</title>
+	 <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="boot.css">
+  <script src="jquery.js"></script>
+
+<style>
+   #title
+   {
+   	color: red;
+   	font-family: georgia;
+   	font-size: 30px;
+   }
+   #head{
+   	background-color: #080f5e;
+   	height: 130px;
+   	
+   }
+   #sas
+   {
+   	padding-top: 40px;
+   	color:white;
+   	font-family: georgia; 
+   	
+   }
+   
+   
+   .start
+   {
+    color:white;
+   	padding:14px;
+   	margin-top: 20px;
+   	border-radius:6px;
+   	background-color: #999999;
+
+   }
+   .next
+   {
+    color:white;
+    padding:13px;
+   	margin-top:20px;
+   	border-radius:6px;
+   	background-color: #999999;
+   	color:white;
+
+   }
+   .login
+  {
+    padding:10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius:10px;
+    box-shadow:10px; 
+    color: red;
+    background-color: #080f5e;
+    margin-top: 10px;
+
+
+  }
+  .login:hover
+  {
+   box-shadow: 4px 2px 10px #9896A4;
+  }
+  .loginn
+  {
+    padding:10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius:10px;
+    box-shadow:10px; 
+    color: red;
+    background-color: #080f5e;
+    margin-top: 10px;
+   
+	
+  }
+   .loginn:hover
+  {
+   box-shadow: 4px 2px 10px #9896A4;
+  }
+
+	#log{
+
+		margin-top: 60px;
+	}
+	.line
+	{
+margin-top: 20px;
+	}
+  #text
+  {
+    color:white;
+  }
+  #start
+  {
+  color:red;
+  }
+
+</style>
+<body>
+	
+<form action="val.jsp" method="POST">
+
+	
+<nav class="navbar navbar-default" id="head">
+  <div class="container-fluid">
+    <div class="navbar-header"><a class="navbar-brand">
+      	<img style="width: 100%; margin-top:-15px; height: auto;" src="img/logo.png"></a>
+  </div>
+   <div> 
+<h1 id="sas"><center>Sasurie Quiz Competition</center></h1>
+
+  </div></div>
+</nav>
+  
+	
+<div class="container" id="log">
+	<div class="row">
+		<div class="col-sm-4"></div>
+	<div class="col-sm-4"><center> <h2 style="font-family: georgia"><b>LOGIN</b></h2>
+		<div class="row">
+			<svg height="1" width="500">
+  <line x1="0" y1="0" x2="400" y2="0" style="stroke:rgb(38, 38, 38);stroke-width:5" />
+  
+</svg>
+</div>
+		<div class="row">
+		        		<div class="col-sm-12">
+	            <input type="text" name="regno" class="start" placeholder="Reg_No">
+	 	</div>
+	 </div>
+
+	<div class="row">
+		<div class="col-sm-12">
+	      <input type="password" name="pass" class="next" placeholder="Password" >
+	  </div>
+	</div></center>
+	<div class="row">
+       <center><div class="col-sm-6" >
+        
+		    <input type="submit" class = "login" value="login"></input>
+		</div>
+
+
+	    <div class="col-sm-6">
+        <a href="registration.html">
+            <input type="button" class = "loginn" value="register" ></input></a>
+         </div></center>
+         <div class="row">
+			<svg height="1" width="500" class="line">
+  <line x1="0" y1="0" x2="400" y2="0" style="stroke:rgb(38, 38, 38);stroke-width:5;" />
+  
+</svg> </div> 
+     </div><div class="row">      <div class="col-sm-4"></div>     </div>
+
+</div>
+
+
+<div>
+	
+</div>
+</div>
+</form>
+</body>
+	
+
+</html>
